@@ -155,6 +155,10 @@ a:hover {
     width: 160px;
 }
 
+.pos{
+    position: absolute;
+}
+
 .color1{
     color: #8e8e8e;
     font: 24px Arial, Helvetica, sans-serif;
@@ -162,12 +166,12 @@ a:hover {
 }
 
 .block{
-    width: 280px;
+    width: 260px;
     display: inline-block;
 }
 
 .pad_left{
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 .color2{
@@ -268,7 +272,47 @@ footer>a{
     color: #8b847d;
     display: inline-block;
     position: absolute;
-    width: 750px;
 }
 
-.text2>strong{ color:#4e4e4e;}
+strong{
+    color:#4e4e4e;
+}
+
+.text3{
+    font-size: 14px;
+    color: #8b847d;
+    display: inline-block;
+    width: 500px;
+}
+
+.text3>p{
+    margin: 5px 0px 5px 0px;
+}
+
+.box2{
+    padding-left: 15px;
+    padding-top: 20px;
+    display: inline-block;
+    position: absolute;
+    width: 380px;
+}
+
+.info{
+    padding-bottom: 15px;
+}
+
+.info_block{
+    display: inline-block;
+    position: absolute;
+    font-size: 14px;
+    color: #8b847d;
+    padding-left: 20px;
+}
+
+.info_block>p{
+    margin-top: 5px;
+}
+
+.content2{
+    height: 280px;
+}
