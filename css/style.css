@@ -18,6 +18,12 @@
     margin-left: 0px;
 }
 
+#page3{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
 html{
     font-family: Arial;
 }
@@ -238,6 +244,10 @@ footer>a{
     padding-top: 20px;
 }
 
+.pad_right{
+    padding-right: 50px;
+}
+
 .header1{
     background:url(../img/top.jpg) no-repeat;
     width: 100%;
@@ -315,4 +325,28 @@ strong{
 
 .content2{
     height: 280px;
+}
+
+.img3{
+    margin-right: 40px;
+    display: inline-block;
+    background: url(../img/page3_img1.jpg) 0 0 no-repeat;
+    height: 126px;
+    width: 105px;
+}
+
+.block2{
+    display: inline-block;
+    width: 580px;
+    position: absolute;
+}
+
+.text4{
+    font-size: 14px;
+    color: #8b847d;
+    margin-bottom: 20px;
+}
+
+#page3 .list2>li{
+    padding-bottom: 4px;
 }
