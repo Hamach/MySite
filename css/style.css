@@ -182,6 +182,14 @@ a:hover {
     padding-left: 50px;
 }
 
+.pad_right2{
+    padding-right: 30px;
+}
+
+.pad_bot2{
+    padding-bottom: 50px;
+}
+
 .color2{
     color:#4e4e4e;
 }
@@ -343,6 +351,10 @@ strong{
     position: absolute;
 }
 
+.zero_marg{
+    margin-top: 0px;
+}
+
 .text4{
     font-size: 14px;
     color: #8b847d;
@@ -380,4 +392,67 @@ strong{
 
 .pad_left2{
     padding-left: 37px;
+}
+
+.box3{
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.box3>p{
+    margin: 0px;
+    color:#8b847d;
+}
+
+.info1{
+    width: 250px;
+    display: inline-block;
+}
+
+.info2{
+    width: 580px;
+    display: inline-block;
+    font-size: 14px;
+    color:#8b847d;
+    position: absolute;
+}
+
+.info2>p{
+    margin-top: 0px;
+}
+
+.form{
+    font-size: 16px;
+    color:#8b847d;
+    display: inline-block;
+    padding-right: 24px;
+    margin-top: 0px;
+    vertical-align: top;
+}
+
+.zero_pad{
+    padding-right: 0px;
+}
+
+.input{
+    width: 310px;
+    height: 16px;
+    display: inline-block;
+    color: #4e4e4e;
+    font: 13px Arial, Helvetica, sans-serif;
+}
+
+.area{
+    display: inline-block;
+    color: #4e4e4e;
+    font: 13px Arial, Helvetica, sans-serif;
+    height: 350px;
+    width: 760px;
+    resize: none;
+}
+
+.hrefs2{
+    float: right;
+    margin: 0px 30px 0px 30px;
 }
